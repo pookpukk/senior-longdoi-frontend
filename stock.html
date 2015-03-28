@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+
+        <title>LongDOI</title>
+
+        <meta name="description" content="ProUI Frontend is a Responsive Bootstrap Site Template created by pixelcave and added as a bonus in ProUI Admin Template package which is published on Themeforest.">
+        <meta name="author" content="pixelcave">
+        <meta name="robots" content="noindex, nofollow">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+
+        <!-- Icons -->
+        <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+        <link rel="shortcut icon" href="img/favicon.png">
+        <link rel="apple-touch-icon" href="img/icon57.png" sizes="57x57">
+        <link rel="apple-touch-icon" href="img/icon72.png" sizes="72x72">
+        <link rel="apple-touch-icon" href="img/icon76.png" sizes="76x76">
+        <link rel="apple-touch-icon" href="img/icon114.png" sizes="114x114">
+        <link rel="apple-touch-icon" href="img/icon120.png" sizes="120x120">
+        <link rel="apple-touch-icon" href="img/icon144.png" sizes="144x144">
+        <link rel="apple-touch-icon" href="img/icon152.png" sizes="152x152">
+        <link rel="apple-touch-icon" href="img/icon180.png" sizes="180x180">
+        <!-- END Icons -->
+
+        <!-- Stylesheets -->
+        <!-- Bootstrap is included in its original form, unaltered -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- Related styles of various icon packs and plugins -->
+        <link rel="stylesheet" href="css/plugins.css">
+
+        <!-- The main stylesheet of this template. All Bootstrap overwrites are defined in here -->
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- The themes stylesheet of this template (for using specific theme color in individual elements - must included last) -->
+        <link rel="stylesheet" href="css/themes.css">
+        <!-- END Stylesheets -->
+        
+        <link rel="stylesheet" href="css/longdoi.css">
+        
+        <!-- Modernizr (browser feature detection library) & Respond.js (enables responsive CSS code on browsers that don't support it, eg IE8) -->
+        <script src="js/vendor/modernizr-respond.min.js"></script>
+    </head>
+    <body>
+        <!-- Page Container -->
+        <!-- In the PHP version you can set the following options from inc/config file -->
+        <!-- 'boxed' class for a boxed layout -->
+        <div id="page-container" class="boxed">
+            <!-- Site Header -->
+            <header>
+                <div class="container">
+                    <!-- Site Logo -->
+                    <a href="index.html" class="site-logo">
+                        <i class="fa fa-area-chart"></i> Long<strong>DOI</strong>
+                    </a>
+                    <!-- Site Logo -->
+
+                    <!-- Site Navigation -->
+                    <nav>
+                        <!-- Menu Toggle -->
+                        <!-- Toggles menu on small screens -->
+                        <a href="javascript:void(0)" class="btn btn-default site-menu-toggle visible-xs visible-sm">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                        <!-- END Menu Toggle -->
+
+                        <!-- Main Menu -->
+                        <ul class="site-nav">
+                            <!-- Toggles menu on small screens -->
+                            <li class="visible-xs visible-sm">
+                                <a href="javascript:void(0)" class="site-menu-toggle text-center">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </li>
+                            <!-- END Menu Toggle -->
+                 
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="brokerRanking.html">Broker Ranking</a>
+                            </li>
+                            <li class="active">
+                                <a href="#">Stock</a>
+                            </li>
+                            <li>
+                                <a href="analysis.html">Analysis</a>
+                            </li>
+                            <li>
+                                <a href="team.html">Team</a>
+                            </li>
+                        </ul>
+                        <!-- END Main Menu -->
+                    </nav>
+                    <!-- END Site Navigation -->
+                </div>
+            </header>
+            <!-- END Site Header -->
+
+            <!-- Intro -->
+            <section class="site-section site-section-light site-section-top parallax-image" style="background-image: url('img/business_analysis_iStock_000003923536XSmall.jpg');">
+                <div class="container">
+                    <h1 class="text-center animation-slideDown"><strong>Which stock is the hot picks now?</strong> Find out!</h1>
+                    <h2 class="text-center animation-slideUp push hidden-xs">Success is how high you bounce when you hit bottom. -George S. Patton</h2>
+                    <div class="site-block text-center">
+                        <form action="stockResult.html" method="post" class="form-horizontal" >
+                            <div class="form-group">
+                                <div class="col-md-6 col-md-offset-3">
+                                    <label class="sr-only" for="register-email">a stock..</label>
+                                    <div class="input-group input-group-lg">
+                                        <input type="text" id="input_stock" name="input_stock" class="form-control" placeholder="a stock..">
+                                        <div class="input-group-btn">
+                                            <button type="submit" class="btn btn-primary"><i class="hi hi-search"></i> Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                
+                </div>
+            </section>
+            <!-- END Intro -->
+
+            <!-- Promo #1 -->
+            <section class="site-content site-section site-slide-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-5 site-block TOTAL-none" data-toggle="animation-appear" data-animation-class="animation-fadeInRight" data-element-offset="-180">
+                            <h1 class="col-md-6" id="setindex"><strong>SET</strong></h1><h1 class="col-md-6 text-right text-danger" id="setindex">1495.22</h1>
+                            <p class="promo-content text-right text-danger">(-1.19)<br>(-0.02%)</p>
+                            <h3 class="col-md-6">
+                                <strong>Market Status</strong><br><br>
+                                <strong>Volume(K)</strong><br><br>
+                                <strong>Value(M)</strong>
+                            </h3>
+                            <h3 class="text-right">
+                                <text class="text-muted">Closed</text><br><br>
+                                7,941,280<br><br>
+                                33,356.34
+                            </h3>
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-offset-1 site-block TOTAL-none" data-toggle="animation-appear" data-animation-class="animation-fadeInLeft" data-element-offset="-180">
+                            <!-- Testimonials Carousel -->
+                            <div id="testimonials-carousel" class="carousel slide carousel-html" data-ride="carousel" data-interval="4000">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#testimonials-carousel" data-slide-to="1"></li>
+                                    <li data-target="#testimonials-carousel" data-slide-to="2"></li>
+                                </ol>
+                                <!-- END Indicators -->
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="active item">
+                                        <!-- Advanced Active Theme Color Widget Alternative -->
+                                        <div class="widget">
+                                            <div class="widget-advanced widget-advanced-alt">
+                                                <!-- Widget Header -->
+                                                <div class="widget-header text-center">
+                                                    <div>
+                                                        <img src="img/icon/Custom-Icon-Design-Mini-4-Award-1.ico" alt="avatar" class="widget-image img-circle"><br>
+                                                        <h4><small class="text-warning">The first place of hot picks</small></h4>
+                                                    </div>
+                                                </div>
+                                                <div class="widget-header text-center" id="firstplace">
+                                                    <h3 class="widget-content-light h2 site-heading" style="">
+                                                        <strong><a href="page_ready_user_profile.html">SIRI</a></strong><br>
+                                                        <i class="fa fa-money"></i> 1.81 <br>
+                                                        <small>(+12.00)</small> <small>(+2.00%)</small>
+                                                    </h3>
+                                                </div>
+                                                <!-- END Widget Header -->
+
+                                                <!-- Widget Main -->
+                                                <div class="widget-main">
+                                                    <div class="row text-center">
+                                                        <div class="col-xs-6 col-lg-3">
+                                                            <h3>
+                                                                <strong>10</strong><br>
+                                                                <small>BUY</small>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="col-xs-6 col-lg-3">
+                                                            <h3>
+                                                                <strong>80</strong><br>
+                                                                <small>HOLD</small>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="col-xs-6 col-lg-3">
+                                                            <h3>
+                                                                <strong>60</strong><br>
+                                                                <small>SELL</small>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="col-xs-6 col-lg-3">
+                                                            <h3 class="text-success">
+                                                                <strong>150</strong><br>
+                                                                <small>TOTAL</small>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- END Widget Main -->
+                                            </div>
+                                        </div>
+                                        <!-- END Advanced Active Theme Color Widget Alternative -->
+                                    </div>
+                                    <div class="item">
+                                        <!-- Advanced Active Theme Color Widget Alternative -->
+                                        <div class="widget">
+                                            <div class="widget-advanced widget-advanced-alt">
+                                                <!-- Widget Header -->
+                                                <div class="widget-header text-center">
+                                                    <div>
+                                                        <img src="img/icon/Custom-Icon-Design-Mini-4-Award-2.ico" alt="avatar" class="widget-image img-circle"><br>
+                                                        <h4><small class="text-warning">The second place of hot picks</small></h4>
+                                                    </div>
+                                                </div>
+                                                <div class="widget-header text-center" id="secondplace">
+                                                    <h3 class="widget-content-light h2 site-heading">
+                                                        <strong><a href="page_ready_user_profile.html">KBANK</a></strong><br>
+                                                        <i class="fa fa-money"></i> 1.81 <br>
+                                                        <small>(+12.00)</small> <small>(+2.00%)</small>
+                                                    </h3>
+                                                </div>
+                                                <!-- END Widget Header -->
+
+                                                <!-- Widget Main -->
+                                                <div class="widget-main">
+                                                    <div class="row text-center">
+                                                        <div class="col-xs-6 col-lg-3">
+                                                            <h3>
+                                                                <strong>10</strong><br>
+                                                                <small>BUY</small>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="col-xs-6 col-lg-3">
+                                                            <h3>
+                                                                <strong>80</strong><br>
+                                                                <small>HOLD</small>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="col-xs-6 col-lg-3">
+                                                            <h3>
+                                                                <strong>60</strong><br>
+                                                                <small>SELL</small>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="col-xs-6 col-lg-3">
+                                                            <h3 class="text-success">
+                                                                <strong>20</strong><br>
+                                                                <small>TOTAL</small>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- END Widget Main -->
+                                            </div>
+                                        </div>
+                                        <!-- END Advanced Active Theme Color Widget Alternative -->
+                                    </div>
+                                    <div class="item">
+                                        <!-- Advanced Active Theme Color Widget Alternative -->
+                                        <div class="widget">
+                                            <div class="widget-advanced widget-advanced-alt">
+                                                <!-- Widget Header -->
+                                                <div class="widget-header text-center">
+                                                    <div>
+                                                        <img src="img/icon/Custom-Icon-Design-Mini-4-Award-3.ico" alt="avatar" class="widget-image img-circle"><br>
+                                                        <h4><small class="text-warning">The third place of hot picks</small></h4>
+                                                    </div>
+                                                </div>
+                                                <div class="widget-header text-center" id="thirdplace">
+                                                    <h3 class="widget-content-light h2 site-heading">
+                                                        <strong><a href="page_ready_user_profile.html">BTS</a></strong><br>
+                                                        <i class="fa fa-money"></i> 1.81 <br>
+                                                        <small>(+12.00)</small> <small>(+2.00%)</small>
+                                                    </h3>
+                                                </div>
+                                                <!-- END Widget Header -->
+
+                                                <!-- Widget Main -->
+                                                <div class="widget-main">
+                                                    <div class="row text-center">
+                                                        <div class="col-xs-6 col-lg-3">
+                                                            <h3>
+                                                                <strong>10</strong><br>
+                                                                <small>BUY</small>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="col-xs-6 col-lg-3">
+                                                            <h3>
+                                                                <strong>80</strong><br>
+                                                                <small>HOLD</small>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="col-xs-6 col-lg-3">
+                                                            <h3>
+                                                                <strong>60</strong><br>
+                                                                <small>SELL</small>
+                                                            </h3>
+                                                        </div>
+                                                        <div class="col-xs-6 col-lg-3">
+                                                            <h3 class="text-success">
+                                                                <strong>5</strong><br>
+                                                                <small>TOTAL</small>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- END Widget Main -->
+                                            </div>
+                                        </div>
+                                        <!-- END Advanced Active Theme Color Widget Alternative -->
+                                    </div>
+                                </div>
+                                <!-- END Wrapper for slides -->
+                            </div>
+                            <!-- END Testimonials Carousel -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END Promo #1 -->
+            
+            <!-- Footer -->
+            <footer class="site-footer site-section">
+                <div class="container">
+                    <!-- Footer Links -->
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <h4 class="footer-heading">Follow Us</h4>
+                            <ul class="footer-nav footer-nav-social list-inline">
+                                <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fa fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-3 text-right">
+                            <h4 class="footer-heading">About Us</h4>
+                            <ul class="footer-nav list-inline">
+                                <li><a href="about.html">Company</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.html">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- END Footer Links -->
+                </div>
+            </footer>
+            <!-- END Footer -->
+        </div>
+        <!-- END Page Container -->
+
+        <!-- Scroll to top link, initialized in js/app.js - scrollToTop() -->
+        <a href="#" id="to-top"><i class="fa fa-angle-up"></i></a>
+
+        <!-- Include Jquery library from Google's CDN but if something goes wrong get Jquery from local file -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>!window.jQuery && document.write(decodeURI('%3Cscript src="js/vendor/jquery-1.11.2.min.js"%3E%3C/script%3E'));</script>
+
+        <!-- Bootstrap.js, Jquery plugins and Custom JS code -->
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
