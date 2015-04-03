@@ -40,7 +40,7 @@
         <!-- END Stylesheets -->
         
         <link rel="stylesheet" href="css/longdoi.css">
-
+        
         <!-- Modernizr (browser feature detection library) & Respond.js (enables responsive CSS code on browsers that don't support it, eg IE8) -->
         <script src="js/vendor/modernizr-respond.min.js"></script>
     </head>
@@ -105,7 +105,6 @@
                 <div class="container">
                     <h1 class="text-center animation-slideDown"><strong>Which stock is the hot picks now?</strong> Find out!</h1>
                     <h2 class="text-center animation-slideUp push hidden-xs">Success is how high you bounce when you hit bottom. -George S. Patton</h2>
-                    
                     <div class="site-block text-center">
                         <form action="stockResult.html" method="post" class="form-horizontal" >
                             <div class="form-group">
@@ -121,7 +120,6 @@
                             </div>
                         </form>
                     </div>
-
                     <!-- Working Tabs Block -->
                         <div class="block full">
                             <!-- Working Tabs Title -->
@@ -136,24 +134,18 @@
                                     <!-- Block Tabs -->
                                     <div class="block full border-radius" style="background-color:white;padding:10px 20px;">
                                         <h1 class="text-center" id="stock-head" style="color:black"><i class="hi hi-thumbs-up"></i> <strong>Daily Recommendations</strong></h1>
-                                        <h1 class="text-center" style="color:black;margin-bottom:20px;"><strong>BTS</strong> 1.80<br><small>(+0.13)<br>(+0.82%)</small></h1>
                                         <!-- Block Tabs Title -->
                                         <div class="block-title">
-                                            <div class="block-options pull-right" style="width:50%">
-                                                
+                                            <div class="block-options pull-right" style="width:30%">
                                                 <!-- Time and Date Pickers Content -->
                                                 <form action="page_forms_components.html" method="post" class="form-horizontal form-bordered" onsubmit="return false;" style=" margin-top: 0px; margin-bottom: 0px; ">
                                                     <fieldset>
                                                         <div class="form-group" style=" padding-bottom: 0px; padding-top: 0px; ">
-                                                            <div class="col-md-2"></div>
-                                                            <div class="col-md-4 col-sm-6 hidden-xs">
-                                                                <a href="stock.html"><button type="button" class="btn btn-sm btn-default"><i class="fa fa-angle-left" style=" margin-top: 2px; "></i> Daily Recommendations</button></a>
-                                                            </div>
-                                                            <label class="col-md-1 control-label hidden-sm hidden-xs" for="example-datepicker" style="color:black;padding-right: 0px;">DATE: </label>
-                                                            <div class="col-md-3 col-sm-4 col-xs-6">
+                                                            <label class="col-md-3 control-label" for="example-datepicker" style="color:black;padding-right: 0px;">DATE: </label>
+                                                            <div class="col-md-5">
                                                                 <input type="text" id="example-datepicker2" name="example-datepicker2" class="form-control input-datepicker" data-date-format="dd/mm/yy" placeholder="dd/mm/yy" style=" padding-top: 4px; padding-bottom: 4px; height: 30px; ">
                                                             </div>
-                                                            <button type="submit" class="btn btn-sm btn-primary" style=" margin-top: 2px; "><i class="fa fa-angle-right"></i> Go</button>
+                                                            <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-angle-right"></i> Go</button>
                                                         </div>
                                                     </fieldset>
                                                 </form>
@@ -187,7 +179,7 @@
                                                             <table class="table table-striped table-vcenter">
                                                                 <thead>
                                                                     <tr>
-                                                                        <th><i class="hi hi-stats hidden-xs"></i> STOCK</th>
+                                                                        <th><i class="hi hi-stats"></i> STOCK</th>
                                                                         <th class="text-center" style="width: 10%;">PRICE</th>
                                                                         <th class="text-center" style="width: 10%;">BUY</th>
                                                                         <th class="text-center" style="width: 10%;">HOLD</th>
@@ -200,7 +192,7 @@
                                                                         <td>
                                                                             <h3><a href="javascript:void(0)"><strong>BTS</strong></a></h3>
                                                                             
-                                                                            <p class="hidden-xs"><em>Bangkok Mass Transit System Public Company Limited.</em></p>
+                                                                            <p class="hidden-xs"><em>Bankok Mass Transit System Public Company Limited.</em></p>
                                                                         </td>
                                                                         <td class="text-center "
                                                                             <h3 class="animation-pullDown">1.80<br><small>(+0.13)<br>(+0.82%)</small></h3>
@@ -218,7 +210,28 @@
                                                                             <h3 class="animation-pullDown text-success"><strong>6</strong></h3>
                                                                         </td>
                                                                     </tr>
-                                                                    
+                                                                    <tr>
+                                                                        <td>
+                                                                            <h3><a href="javascript:void(0)"><strong>BMCL</strong></a></h3>
+                                                                            
+                                                                            <p class="hidden-xs"><em>Bangkok Metro Public Company Limited.</em></p>
+                                                                        </td>
+                                                                        <td class="text-center "
+                                                                            <h3 class="animation-pullDown">1.80<br><small>(+0.13)<br>(+0.82%)</small></h3>
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            <h3 class="animation-pullDown">2</h3>
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            <h3 class="animation-pullDown">0</h3>
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            <h3 class="animation-pullDown">0</h3>
+                                                                        </td>
+                                                                        <td class="text-center hidden-xs">
+                                                                            <h3 class="animation-pullDown text-success"><strong>2</strong></h3>
+                                                                        </td>
+                                                                    </tr>
                                                                 </tbody>
                                                             </table>
                                                             <!-- END Projects Results -->
@@ -252,6 +265,7 @@
                                                                         <th class="text-center" style="width: 5%;">DATE</th>
                                                                         <th class="text-center" style="width: 10%;">BROKER</th>
                                                                         <th class="text-center" style="width: 15%;">RECOMMENDATION</th>
+                                                                        <th class="text-center" style="width: 10%;">STOCK</th>
                                                                         <th class="text-center" style="width: 10%;">PRICE<br><small>(on released date)</small></th>
                                                                         <th class="text-center" style="min-width: 60px; width: 20%;">RESOURCE</th>
                                                         
@@ -267,6 +281,9 @@
                                                                         </td>
                                                                         <td class="text-center">
                                                                             SELL
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            BTS
                                                                         </td>
                                                                         <td class="text-center">
                                                                             1.58
@@ -286,6 +303,9 @@
                                                                             BUY
                                                                         </td>
                                                                         <td class="text-center">
+                                                                            BTS
+                                                                        </td>
+                                                                        <td class="text-center">
                                                                             1.58
                                                                         </td>
                                                                         <td class="text-center">
@@ -301,6 +321,9 @@
                                                                         </td>
                                                                         <td class="text-center">
                                                                             BUY
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            BTS
                                                                         </td>
                                                                         <td class="text-center">
                                                                             1.58
@@ -320,6 +343,9 @@
                                                                             BUY
                                                                         </td>
                                                                         <td class="text-center">
+                                                                            BTS
+                                                                        </td>
+                                                                        <td class="text-center">
                                                                             1.58
                                                                         </td>
                                                                         <td class="text-center">
@@ -337,6 +363,9 @@
                                                                             HOLD
                                                                         </td>
                                                                         <td class="text-center">
+                                                                            BTS
+                                                                        </td>
+                                                                        <td class="text-center">
                                                                             1.58
                                                                         </td>
                                                                         <td class="text-center">
@@ -352,6 +381,49 @@
                                                                         </td>
                                                                         <td class="text-center">
                                                                             BUY
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            BTS
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            1.58
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            <a href="www.settrade.or.th">link to resource</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-center">
+                                                                            28/3/2015
+                                                                        </td>
+                                                                        <td class="text-center ">
+                                                                            Bualuang Securities
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            BUY
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            BMCL
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            1.58
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            <a href="www.settrade.or.th">link to resource</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-center">
+                                                                            28/3/2015
+                                                                        </td>
+                                                                        <td class="text-center ">
+                                                                            Maybank
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            BUY
+                                                                        </td>
+                                                                        <td class="text-center">
+                                                                            BMCL
                                                                         </td>
                                                                         <td class="text-center">
                                                                             1.58
@@ -382,21 +454,20 @@
                             <!-- END Working Tabs Content -->
                         </div>
                         <!-- END Working Tabs Block -->
-
-                    
-                
                 </div>
             </section>
             <!-- END Intro -->
+
+
 
             <!-- Promo #1 -->
             <section class="site-content site-section site-slide-content">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 col-md-5 site-block TOTAL-none" data-toggle="animation-appear" data-animation-class="animation-fadeInRight" data-element-offset="-180">
-                            <h1 class="col-md-6 col-xs-6" id="setindex"><strong>SET</strong></h1><h1 class="col-md-6 col-xs-6 text-right text-danger" id="setindex">1495.22</h1>
+                            <h1 class="col-md-6" id="setindex"><strong>SET</strong></h1><h1 class="col-md-6 text-right text-danger" id="setindex">1495.22</h1>
                             <p class="promo-content text-right text-danger">(-1.19)<br>(-0.02%)</p>
-                            <h3 class="col-md-6 col-xs-6">
+                            <h3 class="col-md-6">
                                 <strong>Market Status</strong><br><br>
                                 <strong>Volume(K)</strong><br><br>
                                 <strong>Value(M)</strong>
@@ -598,7 +669,7 @@
                 <div class="container">
                     <!-- Footer Links -->
                     <div class="row">
-                        <div class="col-sm-6 col-md-6">
+                        <div class="col-sm-6 col-md-3">
                             <h4 class="footer-heading">Follow Us</h4>
                             <ul class="footer-nav footer-nav-social list-inline">
                                 <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
@@ -608,8 +679,13 @@
                                 <li><a href="javascript:void(0)"><i class="fa fa-rss"></i></a></li>
                             </ul>
                         </div>
-                        
-                        <div class="col-sm-6 col-md-6 text-right">
+                        <div class="col-sm-6 col-md-3">
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            
+                        </div>
+                        <div class="col-sm-6 col-md-3 text-right">
                             <h4 class="footer-heading">About Us</h4>
                             <ul class="footer-nav list-inline">
                                 <li><a href="about.html">Company</a></li>
@@ -636,9 +712,5 @@
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js2/plugins.js"></script>
         <script src="js2/app.js"></script>
-
-
-        <!-- ckeditor.js, load it only in the page you would like to use CKEditor (it's a heavy plugin to include it with the others!) -->
-        <script src="js/helpers/ckeditor/ckeditor.js"></script>
     </body>
 </html>
