@@ -58,3 +58,17 @@
             -moz-border-radius: 10px 10px 0px 0px;
             -webkit-border-radius: 10px 10px 0px 0px;
         }
+        .center-svg{
+                display:block;
+                margin:auto;
+            }
+            .report{
+                width:320px;
+                height: 320px;
+            }
+            .investor{
+                width: 320px;
+            }
+            .small-svg{
+                width: 150px;
+            }
